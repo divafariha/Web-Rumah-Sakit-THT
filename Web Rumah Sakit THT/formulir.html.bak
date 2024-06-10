@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<title>Rumah Sakit THT | Formulir Pendaftaran</title> 
+	<link rel="stylesheet" href="mystyle.css">
+</head> 
+<body>
+		<div class="title">
+			<img src="lgrs.png" alt="rumah sakit tht" usemap="#workmap" width="150" height="150" >
+			<map name="workmap"><area shape="rect" coords="0,150,150,0" href="home.html">
+			<img src="jdlrs.png" alt="rumah sakit tht" usemap="#workmap" width="800" height="150" >
+			<map name="workmap"><area shape="rect" coords="150,0,800,150" href="home.html"></center>
+		</div>
+		<div class="menu"">
+			<a href="home.html" target="_self"><button> HOME </button></a>
+			<a href="Layanan.html" target="_self"><button> LAYANAN </button></a>
+			<a href="dokter.html" target="_self"><button> DOKTER THT </button></a>
+			<a href="tips.html" target="_self"><button>	TIPS </button></a>
+			<a href="contact.html" target="_self"><button> CONTACT </button></a>
+		</div>
+	<fieldset>
+	<h2><center>FORMULIR PENDAFTARAN</center></h2>
+	<form action=" formulir.html" method="get">
+	Nama lengkap				: <br/><textarea rows="2" cols="70" name="nama"></textarea>
+	<br/>
+	Tempat Tanggal Lahir		: <br/><input type="number" name="tanggal" placeholder="tanggal"/>
+								  <input type="text" name="bulan" placeholder="bulan"/>
+								  <input type="number" name="tahun" placeholder="tahun"/>
+	<br/>
+	Jenis kelamin				: <br/><input type="radio" name="jeniskelamin" value="laki-laki" checked /> Laki - laki
+								  <input type="radio" name="jeniskelamin" value="perempuan" checked /> Perempuan
+	<br/>
+	Alamat						: <br/><textarea rows="2" cols="70" name="alamat"> </textarea>
+	<br/>
+	Layanan						: <br/><input type="radio" name="layanan" value="poli" checked /> POLI THT
+								  <input type="radio" name="layanan" value="audiogram" checked /> AUDIOGRAM
+	<br/>
+	Dokter						: <br/><select name="dokter">
+								  <option value="1">Prof. dr. Fara Putri Cahyadi, Sp. THT-KL (K)</option>
+								  <option value="2">Prof. dr. Freya Nur Azizah, Sp. THT-KL (K)</option>
+								  <option value="3">Prof. dr. Zahran Putra Khaullah, Sp. THT-KL (K)</option>
+								  <option value="4">Prof. dr. Aldo Pratama, Sp. THT-KL (K</option>
+								  <option value="5">Prof. dr. Gracio Mahesa Nation, Sp. THT-KL (K)</option>
+								  <option value="6">Prof. dr. Shania Andhira , Sp. THT-KL (K)</option>
+								  <option value="7">Prof. dr. Anindhita Larasati, Sp. THT-KL (K)</option>
+								  <option value="8">Prof. dr. Andreas Davi Herland, Sp. THT-KL (K)</option>
+								  </select>
+	<br><br>
+	<input type="submit" value="DAFTAR">
+	</form>
+	</fieldset>
+	<footer class="footer">
+		<h5>Copyright &#169; Diva Fariha Aswarina </h5>
+	</footer>
+</body>
+</html>

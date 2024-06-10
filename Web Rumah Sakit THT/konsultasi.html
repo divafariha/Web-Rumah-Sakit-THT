@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<title>Rumah Sakit THT | Formulir Pendaftaran</title> 
+	<link rel="stylesheet" href="mystyle.css">
+</head> 
+<body>
+	<div id="box">
+		RUMAH SAKIT THT
+		<div id="box2">
+			<img src="lgrs.png" alt="rumah sakit tht" usemap="#workmap" width="200px" height="200px" >
+			<map name="workmap"><area shape="rect" coords="0,200,200,0" href="home.html">
+		</div>
+	</div>
+		<div class="menu">
+			<button></button>
+			<a href="home.html" target="_self"><button> HOME </button></a>
+			<a href="Layanan.html" target="_self"><button> LAYANAN </button></a>
+			<a href="dokter.html" target="_self"><button> DOKTER THT </button></a>
+			<a href="tips.html" target="_self"><button>	TIPS </button></a>
+			<a href="contact.html" target="_self"><button> CONTACT </button></a>
+			<a href="konsultasi.html" target="_self"><button style="color: white;"> KONSULTASI </button></a>
+		</div>
+	
+	<h2><center>FORMULIR PENDAFTARAN</center></h2>
+
+	<div class="form">
+	<form action=" konsultasi.html" onSubmit="form()">
+		<label>Nama lengkap:</label> 
+		<br/>
+		<input type="text" name="nama" id="nama" >
+		<br/>
+		<label>Tempat Tanggal Lahir:</label> 
+		<br/>
+			<input type="text" name="T" id="T" />
+			<input type="date" name="TL" id="TL" />
+		<br/>
+		<label>Jenis kelamin: </label>
+		<br/><select name="jeniskelamin" id="jeniskelamin" value="--PILIH Jenis Kelamin--">
+			<option value="--PILIH Jenis Kelamin--">--PILIH Jenis Kelamin--</option>
+			<option value="Laki Laki">Laki-Laki</option>
+			<option value="Perempuan">Perempuan</option>
+			</select>
+			<br/>
+		<label>Alamat:</label> 
+		<br/><input type="text" name="alamat" id="alamat" >
+		<br/>
+		<label>Layanan: </label>
+		<br/><select name="layanan" id="layanan" value="--PILIH LAYANAN--">
+			<option value="--PILIH LAYANAN--">--PILIH LAYANAN--</option>
+			<option value="POLI THT">POLI THT</option>
+			<option value="AUDIOGRAM">AUDIOGRAM</option>
+			</select>
+			<br/>
+		<label>Dokter: </label>
+			<br/><select name="dokter" id="dokter" value="--PILIH DOKTER--">
+				<option value="--PILIH DOKTER--">--PILIH DOKTER--</option>
+				<option value="Prof. dr. Fara Putri Cahyadi, Sp. THT-KL (K)">Prof. dr. Fara Putri Cahyadi, Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Freya Nur Azizah, Sp. THT-KL (K)">Prof. dr. Freya Nur Azizah, Sp. THT-KL (K)</option>
+			    <option value="Prof. dr. Zahran Putra Khaullah, Sp. THT-KL (K)">Prof. dr. Zahran Putra Khaullah, Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Aldo Pratama, Sp. THT-KL (K)">Prof. dr. Aldo Pratama, Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Gracio Mahesa Nation, Sp. THT-KL (K)">Prof. dr. Gracio Mahesa Nation, Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Shania Andhira , Sp. THT-KL (K)">Prof. dr. Shania Andhira , Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Anindhita Larasati, Sp. THT-KL (K)">Prof. dr. Anindhita Larasati, Sp. THT-KL (K)</option>
+				<option value="Prof. dr. Andreas Davi Herland, Sp. THT-KL (K)">Prof. dr. Andreas Davi Herland, Sp. THT-KL (K)</option>
+				</select>
+		<br><br>
+		<input type="submit" value="DAFTAR" class="tombol">
+			</form>
+		</div>
+		 
+	<footer class="footer">
+		<h5>Copyright &#169; Diva Fariha Aswarina </h5>
+	</footer>
+	</script>
+</body>
+		<script type="text/javascript"> 
+			function form() { 
+		   var nama = document.getElementById("nama").value;  	 	
+		   var T = document.getElementById("T").value; 
+		   var TL = document.getElementById("TL").value; 	 	
+		   var jeniskelamin = document.getElementById("jeniskelamin").value;   	 	
+		   var alamat = document.getElementById("alamat").value;
+		   var layanan = document.getElementById("layanan").value; 
+		   var dokter = document.getElementById("dokter").value;  	 	
+
+
+			if (nama != "" && T!="" && TL!="" && jeniskelamin!="" && alamat !="" && layanan!=""  && dokter!="" ){ 
+				alert( ' Nama              : ' + nama + 
+					   ' \n TTL                  : ' + T + ',   ' + TL + 
+					   ' \n Jenis Kelamin  : ' + jeniskelamin + 
+					   ' \n Alamat            : ' + alamat + 
+					   ' \n Layanan          : ' + layanan + 
+					   ' \n Dokter            : ' + dokter + 
+					   '\n\n Selamat anda sudah Terdaftar. Silahkan datang ke Rumah sakit' ); 
+
+ 				 	document.getElementById('nama').value = '';
+    				document.getElementById('T').value = '';
+	    			document.getElementById('TL').value = '';
+    				document.getElementById('jeniskelamin').value = '';
+   					document.getElementById('alamat').value = '';
+    				document.getElementById('layanan').value = '';
+    				document.getElementById('dokter').value = '';
+					 }
+					 else{ 
+						  alert('Anda harus mengisi data dengan lengkap !'); 
+					 } 
+				} 
+		</script>
+</html>

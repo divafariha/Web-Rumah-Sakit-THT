@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<title>Rumah Sakit THT</title> 
+	<link rel="stylesheet" href="mystyle.css"> 
+</head> 
+<body> 
+	<div class="title">
+		<img src="lgrs.png" alt="rumah sakit tht" usemap="#workmap" width="150" height="150" >
+		<map name="workmap"><area shape="rect" coords="0,150,150,0" href="home.html">
+		<img src="jdlrs.png" alt="rumah sakit tht" usemap="#workmap" width="800" height="150" >
+		<map name="workmap"><area shape="rect" coords="150,0,800,150" href="home.html">
+	</div>	
+	<div class="menu">
+		<a href="home.html" target="_self"><button style="box-shadow: 3px 5px 10px #888888;"> HOME </button></a>
+		<a href="Layanan.html" target="_self"><button> LAYANAN </button></a>
+		<a href="dokter.html" target="_self"><button> DOKTER THT </button></a>
+		<a href="tips.html" target="_self"><button > TIPS </button></a>
+		<a href="contact.html" target="_self"><button > CONTACT </button></a> 
+	</div>
+	<div class="content" >
+		<h2>Selamat Datang Di Situs Resmi Rumah Sakit THT</h2>
+		<center><img src="tht.jpg" alt="tht" usemap="#workmap" width="750px" height="150px"/>
+		<map name="workmap"><area shape="rect" coords="150,0,750,150" href="home.html"></center>
+		<p>Sektor kesehatan tidak dapat terlepas dari pengaruh kemajuan teknologi digital.
+		Termasuk Rumah Sakit THT telah mempersiapkan diri dalam menuju era disrupsi kesehatan 4.0 ini
+		Mulai dari penyelenggaraan layanan telemedicine hingga pemanfaatan teknologi kesehatan lainnya yang 
+		tentunya membuka kesempatan kepada pasien maupun keluarga pasien agar semakin mudah mendapatkan informasi
+		serta pemahaman yang benar dan lengkap mengenai penyakit seputar kesehatan Telinga, Hidung, dan Tenggorok
+		, serta akan membantu anda untuk dapat mengetahui informasi yang terkini dan 
+		terlengkap mengenai rumah sakit kami.</p>
+	</div> 
+	<footer class="footer">
+		<h5>copyright &#169; Diva Fariha Aswarina </h5>
+	</footer>
+</body>
+</html>

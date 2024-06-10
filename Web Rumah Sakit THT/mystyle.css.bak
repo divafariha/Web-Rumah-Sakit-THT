@@ -1,0 +1,44 @@
+body{
+	margin:0px;
+	background-image: url(bg1.png);
+}
+.title{
+	background-color : blue;
+	text-align : center;
+}
+
+.menu{
+	background-color : #80d4ff;
+	text-align : center;
+}
+
+button{	
+	background-color : #80d4ff;
+	border:none; 
+	padding: 10px 32px; 
+	margin: 10px;
+	font-size: 24px;
+}
+
+.content{
+	text-align:justify;
+	text-indent:50px;
+	font-size:30px;
+}
+.content h2{
+	text-align:center;
+}
+.contenttips{
+	margin:20px;
+}
+
+.footer {
+	font-size:25px;
+	background-color: #80d4ff;
+	bottom: 0px;
+	color: blue;
+	height: 30px;
+	text-align: center;
+	width: 100%;
+}
+

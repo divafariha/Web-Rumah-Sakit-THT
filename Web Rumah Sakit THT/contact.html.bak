@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<title>Rumah Sakit THT | Contact</title> 
+	<link rel="stylesheet" href="mystyle.css">
+</head> 
+<body>
+		<div class="title">
+			<img src="lgrs.png" alt="rumah sakit tht" usemap="#workmap" width="150" height="150" >
+			<map name="workmap"><area shape="rect" coords="0,150,150,0" href="home.html">
+			<img src="jdlrs.png" alt="rumah sakit tht" usemap="#workmap" width="800" height="150" >
+			<map name="workmap"><area shape="rect" coords="150,0,800,150" href="home.html"></center>
+		</div>
+		<div class="menu"">
+			<a href="home.html" target="_self"><button> HOME </button></a>
+			<a href="Layanan.html" target="_self"><button> LAYANAN </button></a>
+			<a href="dokter.html" target="_self"><button> DOKTER THT </button></a>
+			<a href="tips.html" target="_self"><button>	TIPS </button></a>
+			<a href="contact.html" target="_self"><button style="box-shadow: 3px 5px 10px #888888;"> CONTACT </button></a>
+		</div>
+		<br><br><br>
+		<div class="isi"
+            style="margin: auto; padding: 50px; width: 1000px; background-color: #F0F8FF; box-shadow: 5px 10px 50px #888888;;">
+            <table>
+                    <td width="10px"></td>
+                    <td>
+                        <p style="font-size: 30px;"><h1>Contact Information</h1><br>
+							<h2><li>Location:</h2>
+								<h3>Jl. Adiwangsa No.12 ,Surakarta - 27128</h3>
+				
+							<h2><li>Phone Number:</h2>
+								<h3>(0271) 050601</h3>
+								<h3>(+62) 812 3456 789 (WA)</h3>
+
+							<h2><li>Email address:</h2>
+								<h3>rumahsakit_tht@gmail.com</h3>
+							<a href="formulir.html" target="_self"><button style="border:none; padding: 10px 32px; margin: 10px; background-color:#AADAE3;  font-size: 24px;">	DAFTAR</button></a>
+						</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+		<br><br><br>
+	<footer class="footer">
+		<h5>Copyright &#169; Diva Fariha Aswarina </h5>
+	</footer>
+</body>
+</html>

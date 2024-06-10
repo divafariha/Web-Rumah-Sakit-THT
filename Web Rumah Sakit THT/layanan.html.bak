@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<title>Rumah Sakit THT | Layanan</title> 
+	<link rel="stylesheet" href="mystyle.css">
+</head> 
+<body>
+		<div class="title">
+			<img src="lgrs.png" alt="rumah sakit tht" usemap="#workmap" width="150" height="150" >
+			<map name="workmap"><area shape="rect" coords="0,150,150,0" href="home.html">
+			<img src="jdlrs.png" alt="rumah sakit tht" usemap="#workmap" width="800" height="150" >
+			<map name="workmap"><area shape="rect" coords="150,0,800,150" href="home.html"></center>
+		</div>
+		<div class="menu"">
+			<a href="home.html" target="_self"><button> HOME </button></a>
+			<a href="Layanan.html" target="_self"><button style="box-shadow: 3px 5px 10px #888888;"> LAYANAN </button></a>
+			<a href="dokter.html" target="_self"><button> DOKTER THT </button></a>
+			<a href="tips.html" target="_self"><button>	TIPS </button></a>
+			<a href="contact.html" target="_self"><button> CONTACT </button></a>
+		</div>
+		<div class="isi">
+		        <table width="100%" style="padding: 10px;">
+            <tr>
+				<td align="center" width="400px" height="100px">
+                    <div class="card"
+                        style="padding: 0px 0px 10px 0px; margin: 10px;   box-shadow: 5px 10px 50px #888888;">
+                        <div class="gambar"><img src="politht.jpg" alt="gambar" width="100%"
+                                style="height: 300px ; object-fit: cover;"></div>
+                        <div class="judul">
+                            <h3 style="margin: 1px;">POLI THT</h3></div> 
+					</div>		
+                </td>
+                <td align="center" width="400px" height="100px">
+                    <div class="card"
+                        style="padding: 0px 0px 10px 0px; margin: 10px;   box-shadow: 5px 10px 50px #888888;">
+                        <div class="gambar"><img
+                                src="audiogram1.jpg"
+                                alt="gambar" width="100%" style="object-fit: cover; height: 300px;"></div>
+                        <div class="judul">
+                            <h3 style="margin: 1px;">AUDIOGRAM</h3></div>
+				</div>
+  
+                </td>
+            </tr> 
+			<tr>
+                <td align="center" width="400px" height="100px">
+                    <div class="card"
+                        style="padding: 0px 0px 10px 0px; margin: 10px;   box-shadow: 5px 10px 50px #888888;">
+                        <div class="gambar"><img
+                                src="farmasitht.jpg"
+                                alt="gambar" width="100%" style="object-fit: cover; height: 300px;"></div>
+                        <div class="judul">
+                            <h3 style="margin: 1px;">FARMASI THT</h3></div>
+					</div>
+                </td>
+                <td align="center" width="400px" height="100px">
+                    <div class="card"
+                        style="padding: 0px 0px 10px 0px; margin: 10px;   box-shadow: 5px 10px 50px #888888;">
+                        <div class="gambar"><img
+                                src="ugdtht.jpg"
+                                alt="gambar" width="100%" style="object-fit: cover; height: 300px;"></div>
+                        <div class="judul">
+                            <h3 style="margin: 1px;">UNIT GAWAT DARURAT</h3></div>
+					</div>
+                </td>
+			</tr>
+		</div><br>        
+</body>
+</html>
